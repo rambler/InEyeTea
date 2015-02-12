@@ -7,7 +7,7 @@ title = "NginX/SSL/Node.js"
 
 # Using NginX to do SSL for Node.js apps
 
-Some notes from my second pass "SSLifying" a Node.js application. By this I mean simply to create an SSL endpoint for your application. In our case, the same application actually listens on both ports 80 and 443 and redirects to 443 if a connection is made on 80. We have been doing that but the additional constraint is that we must place the endpoint directly on the host running the application (all traffic must be encrypted).
+Some notes from my second pass "SSLifying" a Node.js application. <!--more-->By this I mean simply to create an SSL endpoint for your application. In our case, the same application actually listens on both ports 80 and 443 and redirects to 443 if a connection is made on 80. We have been doing that but the additional constraint is that we must place the endpoint directly on the host running the application (all traffic must be encrypted).
 
 ## The easy way that doesn't meet our requirements
 

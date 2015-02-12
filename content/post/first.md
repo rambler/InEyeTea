@@ -11,7 +11,7 @@ title = "Getting Started"
 [^1]: [Wikipedia: Information Technology](http://en.wikipedia.org/wiki/Information_technology)
 
 ## First post
-This is a "first post" on the new blog here - you'll see some older content moved over from another blog. I looked at [nanoc](http://nanoc.ws/) and [ruhoh](http://ruhoh.com/) as well as [Hugo](http://gohugo.io/) but Hugo seems to be a keeper. All of these tools are [static site generators](https://staticsitegenerators.net/) which meet my needs but I'd rather get started with something modern and easy. Another couple I'd like to look at are [middleman](https://middlemanapp.com/) and [hakyll](http://jaspervdj.be/hakyll/). At some point I'll develop some additional requirements but now my needs are simple: *write stuff now*.
+This is a "first post" on the new blog here - you'll see some older content moved over from another blog. <!--more-->I looked at [nanoc](http://nanoc.ws/) and [ruhoh](http://ruhoh.com/) as well as [Hugo](http://gohugo.io/) but Hugo seems to be a keeper. All of these tools are [static site generators](https://staticsitegenerators.net/) which meet my needs but I'd rather get started with something modern and easy. Another couple I'd like to look at are [middleman](https://middlemanapp.com/) and [hakyll](http://jaspervdj.be/hakyll/). At some point I'll develop some additional requirements but now my needs are simple: *write stuff now*.
 
 My goals:
 

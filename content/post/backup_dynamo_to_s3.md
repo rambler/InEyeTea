@@ -4,6 +4,7 @@ title = "Backing up DynamoDB to S3"
 
 +++
 
+Sounds easy! <!--more-->
 ## Things I tried
 
 1. The obvious choice is to use the AWS tools to do this. However, I found that the tool for this, [AWS Data Pipeline](http://docs.aws.amazon.com/datapipeline/latest/DeveloperGuide/dp-importexport-ddb-part2.html), is a bit too heavy for our needs. Basically the approach there is to partition the data and launch a dynamic Hadoop cluster to manage the transfer. This isn't consistent with the scale of our application (small), so this method didn't work. Specifically, it takes money and time to launch instances and we're perfectly capable of doing this from an instance we already have launched.

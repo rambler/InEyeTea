@@ -12,6 +12,7 @@ Well, in terms of financial guarantees, none.  If you use this free software and
 
 However, the proposed standard does "guarantee" uniqueness; this is clearly part of the design.[^1] An implementation which follows this specification has a component which is derived from the MAC address of the generating host for what is called "the spatially unique node identifier".  Other components include the time with 100 ns resolution, and a counter, which is incremented each time a UUID is generated and set to a random value when the counter becomes unavailable.
 
+<!--more-->
 [^1]: From [the RFC]((https://datatracker.ietf.org/doc/rfc4122/): "A UUID is 128 bits long, and can guarantee uniqueness across space and time."
 
 My envelope here shows that to generate `$ 10^{15} $` UUIDs over ten years (on a single machine), you'd have to generate another one every 315 ns or so (I've got `$ 315.36*10^{15} $` ns in ten years).  Since this is close to the clock resolution, you might be relying on the counter mechanism, perhaps quite a bit at times depending on the characteristics of the UUID request arrival process.  You'd have to have a pretty big bit bucket - you'd be generating nearly 50 MB/s for ten years, over 14 petabytes total, at 128 bits per identifier.
